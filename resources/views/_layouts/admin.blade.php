@@ -39,9 +39,9 @@
                             <li><a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a></li>
                         @else
                             <li><a class="nav-link" href="{{ route('uloha1.index') }}">Uloha1</a></li>
-                            @hasrole('Admin')
+                            {{-- @hasrole('Admin')
                             <li><a class="nav-link" href="{{ route('users.index') }}">Manage Users</a></li>
-                            @endhasrole
+                            @endhasrole --}}
                             <?php /*<li><a class="nav-link" href="{{ route('roles.index') }}">Manage Role</a></li>
                             <li><a class="nav-link" href="{{ route('products.index') }}">Manage Product</a></li>*/ ?>
                             <li class="nav-item dropdown">
