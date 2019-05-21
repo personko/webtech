@@ -39,6 +39,7 @@
                             <li><a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a></li>
                         @else
                             <li><a class="nav-link" href="{{ route('uloha1.index') }}">Uloha1</a></li>
+                            <li><a class="nav-link" href="{{ route('uloha2.index') }}">Uloha2</a></li>
                             {{-- @hasrole('Admin')
                             <li><a class="nav-link" href="{{ route('users.index') }}">Manage Users</a></li>
                             @endhasrole --}}

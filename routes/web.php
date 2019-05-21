@@ -35,6 +35,13 @@ Route::group(['middleware' => ['auth']], function() {
 	Route::post('admin/uloha1/store','Admin\Uloha1Controller@store')->name('uloha1.store');
 	Route::delete('admin/uloha1/destroy','Admin\Uloha1Controller@destroy')->name('uloha1.destroy');
 
+    // Uloha 2
+    Route::get('admin/uloha2','Admin\Uloha2Controller@index')->name('uloha2.index');
+    Route::post('admin/uloha2/index','Admin\Uloha2Controller@index')->name('uloha2.index');
+    Route::get('admin/uloha2/index','Admin\Uloha2Controller@index')->name('uloha2.index');
+    Route::post('admin/uloha2/store','Admin\Uloha2Controller@store')->name('uloha2.store');
+    Route::get('admin/uloha2/store','Admin\Uloha2Controller@store')->name('uloha2.store');
+    
 	// Modules
     Route::resource('admin/roles','Admin\RoleController');
     Route::resource('admin/users','Admin\UserController');
