@@ -1,0 +1,48 @@
+body{
+
+}
+
+.container {
+
+    margin: auto;
+}
+
+input[type=text] {
+    padding: 5px 5px;
+    margin: 8px;
+    box-sizing: border-box;
+}
+
+.import{
+    text-align: center;
+    margin-top: 60px;
+}
+
+#form{
+    margin: auto;
+    text-align: center;
+}
+
+.second{
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+#mytextarea{
+    display: none;
+}
+
+#plain{
+    display: block;
+}
+
+.tablevzor{
+    text-align: center;
+
+}
+
+table.dataTable{border-collapse:collapse !important;}
+
+footer{
+    text-align: center;
+}
